@@ -671,10 +671,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: inline-block;
   }
 
-  .lg\:w-1\/2 {
-    width: 50%;
-  }
-
   .lg\:w-2\/3 {
     width: 66.666667%;
   }

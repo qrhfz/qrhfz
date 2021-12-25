@@ -719,6 +719,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:pt-0 {
     padding-top: 0px;
   }
+
+  .md\:pl-12 {
+    padding-left: 3rem;
+  }
 }
 
 @media (min-width: 1024px) {

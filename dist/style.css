@@ -446,6 +446,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 4rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .inline {
   display: inline;
 }
@@ -615,6 +619,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-1\/5 {
     width: 20%;
+  }
+
+  .md\:w-64 {
+    width: 16rem;
   }
 
   .md\:flex-row {

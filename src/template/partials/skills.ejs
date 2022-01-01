@@ -1,0 +1,26 @@
+<section class="bg-slate-50 py-8">
+    <div class=" mx-auto px-8 lg:px-0 lg:w-2/3">
+        <h2 class="text-3xl font-bold mb-2 ">Keahlian</h2>
+        <div class=" grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+            <% skills.forEach(skill => {%>
+                <div>
+                    <h3 class="text-xl font-bold mb-1"><%- skill.type %></h3>
+                    
+                    <% skill.items.forEach(item => { %>
+                        <div class="mb-1">
+                            <%= item.name %> 
+                            <div class="flex">
+                                <div class="w-<%= item.level %>  h-4 bg-yellow-400"></div>
+                                <div class="flex-grow h-4 bg-slate-200"></div>
+                            </div>
+                        </div>
+                    <% }) %>
+                </div>
+            <%});  %> 
+            
+        </div>
+    </div>
+    
+    
+</section>

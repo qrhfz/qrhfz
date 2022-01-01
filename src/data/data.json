@@ -78,5 +78,76 @@
                 }
             ]
         }
+    ],
+    "certs":[
+        {
+            "title":"Belajar Fundamental Aplikasi Flutter",
+            "issuer": "Dicoding Indonesia",
+            "start":"Nov 2021",
+            "end":"Nov 2024",
+            "url":"https://www.dicoding.com/certificates/1OP8L747QZQK"
+        },
+        {
+            "title":"Belajar Fundamental Aplikasi Android",
+            "issuer": "Dicoding Indonesia",
+            "start":"Okt 2021",
+            "end":"Okt 2024",
+            "url":"https://www.dicoding.com/certificates/MEPJL2RO6Z3V"
+        }
+    ],
+    "projects":[
+        {
+            "title":"Gazebo",
+            "description":"Aplikasi portofolio arsitek. Menggunakan state management provider dan backend firebase & algolia. Untuk submission Capstone Studi Independen Bersertifikat Dicoding.",
+            "src": "https://github.com/GerryTo/CapStone",
+            "type": "flutter",
+            "image":"/assets/gazebo.png"
+        },
+        {
+            "title":"Github Users App",
+            "description":"Menampilkan dan mencari pengguna github. Simpan profil favorit, dan bagikan. Menggunakan retrofit dan room. ",
+            "src": "https://github.com/qrhfz/GithubUsersApp",
+            "type": "android",
+            "image":"/assets/github_users.png"
+        },
+        {
+            "title":"Catatan Sederhana",
+            "description":"Aplikasi flutter android untuk menyimpan catatan. Menggunakan Database lokal sqlite dengan orm moor (sekarang bernama drift).",
+            "src": "https://github.com/qrhfz/noteapp",
+            "store": "https://play.google.com/store/apps/details?id=dev.qori.noteapp",
+            "type": "flutter",
+            "image":"/assets/catatan-sederhana.png"
+        },
+        {
+            "title":"Instashibe",
+            "description":"Aplikasi flutter android yang menampilkan foto-foto anjing shiba dari api. User dapat menandai favorit. Data favorit disimpan dalam database hive. ",
+            "src": "https://github.com/qrhfz/shibagram",
+            "store": "https://play.google.com/store/apps/details?id=dev.qori.instashibe",
+            "type": "flutter",
+            "image":"/assets/instashibe.png"
+        },
+        {
+            "title":"Tale of Dhaifuria",
+            "description":"Shooter 2D yang dibuat dengan unity 2D untuk tugas akhir mata kuliah pemrograman game.",
+            "src": "https://github.com/qrhfz/DhaifuriaProject",
+            "demo": "https://qrhfz.github.com/TaleOfDhaifuria/",
+            "type": "unity",
+            "image":"/assets/tale-of-dhaifuria.png"
+        },
+        {
+            "title":"Judul Skripsi Udinus",
+            "description":"Scraping judul skripsi dari halaman profil dosen di situs dinus.ac.id dengan node.js dan library cheerio. ",
+            "src": "https://github.com/qrhfz/JudulSkripsiUdinus",
+            "demo": "https://qrhfz.github.io/JudulSkripsiUdinus",
+            "type": "nodejs",
+            "image":"/assets/judul-skripsi.png"
+        },
+        {
+            "title":"Playfair Cipher CLI",
+            "description":"Implementasi cipher playfair ke dalam aplikasi cli menggunakan bahasa dart native.",
+            "src": "https://github.com/qrhfz/PlayfairDart",
+            "type": "dart",
+            "image":"/assets/playfair.png"
+        }
     ]
 }

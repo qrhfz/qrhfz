@@ -1,0 +1,12 @@
+{
+    "watch": [
+       "./src/template"
+    ],
+    "ext": "ejs",
+    "events": {
+       "start": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+       "restart": "npx ejs ./src/template/index.ejs -f ./src/data/data.json -o ./index.html"
+   }
+}
+
+    

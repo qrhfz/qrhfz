@@ -69,6 +69,7 @@
     "minimist": "^1.2.5",
     "nanoid": "^3.1.30",
     "node-releases": "^2.0.1",
+    "nodemon": "^2.0.15",
     "normalize-path": "^3.0.0",
     "normalize-range": "^0.1.2",
     "object-hash": "^2.2.0",
@@ -104,7 +105,8 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "build": "npx ejs ./src/template/index.ejs -f ./src/data/data.json -o ./index.html"
+    "build": "npx ejs ./src/template/index.ejs -f ./src/data/data.json -o ./index.html",
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",

@@ -24,17 +24,21 @@
 %> 
 
 <section class="bg-slate-200" id="portfolio">
+    <div class="lg:w-2/3 mx-auto px-8 lg:px-0 pt-8">
+        <h2 class="text-3xl font-bold">Portofolio</h2>
+    </div>
+    
+    <div class="lg:w-2/3 mx-auto p-8 lg:px-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-12">
         
-    <div class="lg:w-2/3 mx-auto p-8 lg:px-0">
-        <h2 class="text-3xl font-bold mb-8">Portofolio</h2>
         <% projects.forEach(project => { %>
-            <div class="md:flex mb-12">
-                <img src="<%= project.image %> " alt="" class="w-full md:w-64 mb-4 md:mb-0" width="150">
-                <div class="flex flex-col md:pl-8 gap-2">
-                    <div>
-                        <h3 class="text-xl inline-block align-middle"><%= project.title %> </h3><%- icon(project.type) %> 
-                    </div>
+            <div class="mb-12">
+                
+                <div class="flex flex-col gap-2">
                     
+                    <div>
+                        <h3 class="text-xl inline-block align-middle font-bold"><%= project.title %> </h3><%- icon(project.type) %> 
+                    </div>
+                    <img src="<%= project.image %> " alt="" class="aspect-square object-cover w-full  mb-4 md:mb-0" width="150">
                     <div class="flex gap-2">
                         <% if (project.demo) { %>
                             <a href="<%= project.demo  %>"  target="_blank" 
@@ -59,7 +63,6 @@
                             Source Code
                         </a>
                     </div>
-                        
                     
                     <p>
                         <%= project.description %>

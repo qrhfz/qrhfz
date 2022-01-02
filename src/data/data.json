@@ -111,6 +111,14 @@
             "image":"/assets/github_users.png"
         },
         {
+            "title":"Resto App",
+            "description":"Aplikasi untuk submission kelas dicoding. Melihat dan mencari daftar restoran dari rest api. menambahkan review dan menandai favorit. Menggunakan flutter_bloc, http, dan sqflite",
+            "src": "https://github.com/qrhfz/flutter_restoapp",
+            "demo":"https://sleepy-colden-e35fd9.netlify.app/#/",
+            "type": "flutter",
+            "image":"/assets/resto.png"
+        },
+        {
             "title":"Catatan Sederhana",
             "description":"Aplikasi flutter android untuk menyimpan catatan. Menggunakan Database lokal sqlite dengan orm moor (sekarang bernama drift).",
             "src": "https://github.com/qrhfz/noteapp",
